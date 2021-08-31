@@ -34,3 +34,7 @@ function keyDown(e) {
     if(!checkTexts.length) createText();
   }
 }
+
+var stringCount = checkTexts.length;
+
+alert(stringCount);
