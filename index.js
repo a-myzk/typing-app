@@ -1,7 +1,7 @@
 var p = document.getElementById('text');
 var textLists = [
-  'arigato',
-  'ohayo',
+  'arigatou',
+  'ohayou',
   'konbanwa',
   'oyasuminasai'
 ];
