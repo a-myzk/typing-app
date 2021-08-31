@@ -1,9 +1,9 @@
 var p = document.getElementById('text');
 var textLists = [
-  'Hello World',
-  'This is my App',
-  'How are you?',
-  'Hello Hello'
+  'arigato',
+  'ohayo',
+  'konbanwa',
+  'oyasuminasai'
 ];
 var checkTexts = [];
 
