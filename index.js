@@ -5,5 +5,23 @@ var textLists = [
   'How are you?',
   'Hello Hello'
 ];
+var checkTexts = [];
 
-p.textContent = textLists[0];
+checkTexts = textLists[0].split('').map(function(value) {
+  var span = document.createElement('spam');
+
+  span.textContent = value;
+  p.appendChild(span);
+
+  return span;
+});
+
+document.addEventListener('keydown', keyDown);
+
+function keyDown(e) {
+  if(e.key === checkTexts[0].textContent) {
+    checkTexts[0].className = 'add-blue';
+
+    checkTexts.shift();
+  }
+}
